@@ -1,10 +1,10 @@
-##📕 1984
+# 📕 1984
 
 > *"Big Brother đang dõi theo bạn."*
 
 <p align="center">
 
-![George OrỞell]
+![George Orwell]
 
 ## 📖 Giới thiệu
 
