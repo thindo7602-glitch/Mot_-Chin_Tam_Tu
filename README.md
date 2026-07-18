@@ -1,184 +1,92 @@
-<div align="center">
+##📕 1984
 
-# １９８４
+> *"Big Brother đang dõi theo bạn."*
 
-### *George Orwell*
+<p align="center">
 
-<br>
+![George OrỞell]
 
-> **"BIG BROTHER IS WATCHING YOU."**
+## 📖 Giới thiệu
 
-<br>
+**1984** là tiểu thuyết nổi tiếng của **George Orwell**, xuất bản năm **1949**.
 
-![](https://img.shields.io/badge/Published-1949-5b0000?style=for-the-badge)
-![](https://img.shields.io/badge/Genre-Dystopian-black?style=for-the-badge)
-![](https://img.shields.io/badge/Author-George%20Orwell-7a0000?style=for-the-badge)
-![](https://img.shields.io/badge/HTML-Single%20Page-darkred?style=for-the-badge)
+Tác phẩm khắc họa một xã hội nơi quyền lực kiểm soát mọi mặt của đời sống: từ lịch sử, ngôn ngữ đến cả suy nghĩ của con người.
 
-</div>
+Đây không chỉ là một cuốn tiểu thuyết mà còn là lời cảnh báo về sự thật, tự do và giới hạn của quyền lực.
 
 ---
 
-# 👁
+## 👤 Nhân vật
 
-> **Imagine a world...**
-
-where history changes every day.
-
-where language becomes smaller every year.
-
-where truth exists only because someone in power says it does.
-
-where even **your thoughts** are not your own.
+| Nhân vật | Vai trò |
+|----------|----------|
+| Winston Smith | Nhân vật chính |
+| Julia | Người đồng hành |
+| O'Brien | Thành viên cấp cao của Đảng |
+| Big Brother | Biểu tượng của quyền lực |
 
 ---
 
-<div align="center">
+## 🧠 Những khái niệm nổi bật
+
+- 👁 **Big Brother**
+- 📰 **Newspeak**
+- 🧠 **Thought Police**
+- ⚖ **Doublethink**
+
+---
+
+## 🌍 Chủ đề
+
+- Quyền lực
+- Tự do
+- Sự thật
+- Tuyên truyền
+- Kiểm soát thông tin
+- Ngôn ngữ
+- Ký ức
+- Nhân tính
+
+---
+
+## 💬 Trích dẫn
+
+> **"Chiến tranh là hòa bình."**
+
+> **"Tự do là nô lệ."**
+
+> **"Ngu dốt là sức mạnh."**
+
+> **"Ai kiểm soát quá khứ sẽ kiểm soát tương lai. Ai kiểm soát hiện tại sẽ kiểm soát quá khứ."**
+
+---
+
+## ⭐ Giá trị
+
+Hơn bảy thập kỷ sau khi ra đời, **1984** vẫn là một trong những tác phẩm có ảnh hưởng sâu rộng nhất của văn học thế giới.
+
+Những khái niệm như **Big Brother**, **Newspeak** hay **Thought Police** đã trở thành biểu tượng khi nhắc đến giám sát, tuyên truyền và quyền lực.
+
+---
+
+## 📂 Nội dung trang web
 
 ```
-                     👁
-
-              BIG BROTHER
-
-                    │
-
-      ─────────────────────────
-
-            THE PARTY
-
-                    │
-
-      ┌────────┬────────┬────────┐
-      │        │        │        │
-
-  TRUTH    PEACE     LOVE   PLENTY
+📕 Giới thiệu
+👤 Nhân vật
+🏛 Thế giới Oceania
+🧠 Các khái niệm nổi tiếng
+📚 Chủ đề
+💬 Trích dẫn
+⭐ Giá trị của tác phẩm
 ```
-
-</div>
-
----
-
-# 📖 About
-
-**1984** is more than a novel.
-
-It is a warning.
-
-It asks one simple question:
-
-> **What remains of humanity when truth itself can be rewritten?**
-
----
-
-# 🧠 Ideas
-
-| | |
-|:--|:--|
-| 👁 | Surveillance |
-| 📰 | Propaganda |
-| 📚 | Manipulated History |
-| 🧠 | Thought Control |
-| ⚖ | Doublethink |
-| 🔒 | Absolute Power |
-| 🕊 | Freedom |
-| 💭 | Individual Thought |
-
----
-
-# 💬 Quotes
-
-> *"Big Brother is Watching You."*
-
-<br>
-
-> *"War is Peace."*
-
-> *"Freedom is Slavery."*
-
-> *"Ignorance is Strength."*
-
-<br>
-
-> *"Who controls the past controls the future."*
-
----
-
-# 🌑 Atmosphere
-
-```
-██████████████████████████
-
-YOU ARE BEING WATCHED
-
-██████████████████████████
-```
-
----
-
-# 📚 Characters
-
-```
-Winston Smith
-     │
-     ├──────── Julia
-     │
-     └──────── O'Brien
-
-              │
-
-         Big Brother
-```
-
----
-
-# 🌍 Legacy
-
-More than **75 years** after publication...
-
-people still quote
-
-**Big Brother**
-
-**Newspeak**
-
-**Thought Police**
-
-**Doublethink**
-
-because Orwell's imagination never truly became old.
 
 ---
 
 <div align="center">
 
-## ★★★★★
+### 1984
 
-*"Perhaps one did not want to be loved so much as to be understood."*
-
-<br>
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-### George Orwell
-
-1949
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-</div>
-
----
-
-<div align="center">
-
-```
-██████████████████████████████
-
-END OF FILE
-
-██████████████████████████████
-```
-
-⭐ **If this project interests you, consider giving it a Star.**
+*"Một cuốn sách không chỉ kể về một thế giới hư cấu, mà còn khiến người đọc suy ngẫm về chính thế giới của mình."*
 
 </div>
