@@ -4,7 +4,7 @@
 
 <p align="center">
 
-![George Orwell]
+# [George Orwell]
 
 ## 📖 Giới thiệu
 
