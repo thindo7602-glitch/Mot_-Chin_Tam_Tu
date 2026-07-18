@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>1984 | George Orwell</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+
+font-family:Segoe UI,Arial,sans-serif;
+
+background:
+linear-gradient(180deg,#050505,#111,#050505);
+
+color:#f5f5f5;
+
+line-height:1.8;
+
+overflow-x:hidden;
+
+}
+
+/*==========================*/
+
+header{
+
+height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+/* nền */
+
+header::before{
+
+content:"";
+
+position:absolute;
+
+inset:0;
+
+background:
+
+radial-gradient(circle at top,#7f0000 0%,transparent 45%),
+
+radial-gradient(circle at bottom,#1d1d1d 0%,#050505 75%);
+
+opacity:.95;
+
+}
+
+/* vòng tròn */
+
+header::after{
+
+content:"";
+
+position:absolute;
+
+width:700px;
+
+height:700px;
+
+border-radius:50%;
+
+border:1px solid rgba(255,255,255,.08);
+
+box-shadow:
+
+0 0 120px rgba(255,0,0,.25),
+
+inset 0 0 120px rgba(255,255,255,.04);
+
+animation:spin 45s linear infinite;
+
+}
+
+@keyframes spin{
+
+from{transform:rotate(0deg);}
+
+to{transform:rotate(360deg);}
+
+}
+
+.hero{
+
+position:relative;
+
+z-index:10;
+
+max-width:900px;
+
+padding:40px;
+
+}
+
+.hero h1{
+
+font-size:96px;
+
+letter-spacing:12px;
+
+margin-bottom:20px;
+
+color:white;
+
+text-shadow:
+
+0 0 25px crimson,
+
+0 0 60px red;
+
+}
+
+.hero h2{
+
+font-weight:300;
+
+font-size:26px;
+
+color:#ddd;
+
+margin-bottom:35px;
+
+}
+
+.quote{
+
+display:inline-block;
+
+padding:18px 30px;
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(10px);
+
+border-radius:15px;
+
+font-style:italic;
+
+font-size:22px;
+
+}
+
+/*================*/
+
+main{
+
+max-width:1100px;
+
+margin:auto;
+
+padding:70px 25px;
+
+}
+
+section{
+
+margin-bottom:70px;
+
+background:rgba(255,255,255,.04);
+
+padding:40px;
+
+border-radius:22px;
+
+backdrop-filter:blur(10px);
+
+border:1px solid rgba(255,255,255,.05);
+
+transition:.4s;
+
+}
+
+section:hover{
+
+transform:translateY(-4px);
+
+box-shadow:0 15px 40px rgba(0,0,0,.35);
+
+}
+
+h3{
+
+font-size:36px;
+
+margin-bottom:25px;
+
+color:#ff6b6b;
+
+border-left:6px solid crimson;
+
+padding-left:15px;
+
+}
+
+p{
+
+font-size:18px;
+
+margin-bottom:18px;
+
+color:#ddd;
+
+}
+
+.info{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:18px;
+
+margin-top:35px;
+
+}
+
+.card{
+
+background:#181818;
+
+padding:25px;
+
+border-radius:15px;
+
+text-align:center;
+
+transition:.3s;
+
+}
+
+.card:hover{
+
+background:#232323;
+
+transform:scale(1.03);
+
+}
+
+.card h4{
+
+font-size:30px;
+
+color:#ff5f5f;
+
+margin-bottom:12px;
+
+}
+
+.card span{
+
+display:block;
+
+color:#bbb;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="hero">
+
+<h1>1984</h1>
+
+<h2>George Orwell</h2>
+
+<div class="quote">
+
+"Big Brother is Watching You."
+
+</div>
+
+</div>
+
+</header>
+
+<main>
+
+<section>
+
+<h3>📖 Giới thiệu</h3>
+
+<p>
+
+<b>1984</b> là tiểu thuyết phản địa đàng nổi tiếng của George Orwell,
+xuất bản năm <b>1949</b>. Tác phẩm mô tả một xã hội toàn trị nơi quyền lực
+không chỉ kiểm soát hành động mà còn tìm cách kiểm soát ký ức,
+ngôn ngữ và cả suy nghĩ của con người.
+
+</p>
+
+<p>
+
+Qua câu chuyện của Winston Smith,
+Orwell đặt ra những câu hỏi về tự do,
+sự thật, tuyên truyền và khả năng của quyền lực
+khi không còn bất kỳ giới hạn nào.
+
+</p>
+
+<div class="info">
+
+<div class="card">
+
+<h4>1949</h4>
+
+<span>Năm xuất bản</span>
+
+</div>
+
+<div class="card">
+
+<h4>328</h4>
+
+<span>Trang (bản phổ biến)</span>
+
+</div>
+
+<div class="card">
+
+<h4>Dystopian</h4>
+
+<span>Thể loại</span>
+
+</div>
+
+<div class="card">
+
+<h4>★★★★★</h4>
+
+<span>Tác phẩm kinh điển</span>
+
+</div>
+
+</div>
+
+</section>
+  <section>
+
+<h3>👥 Nhân vật chính</h3>
+
+<div class="info">
+
+<div class="card">
+<h4>👤</h4>
+<h5>Winston Smith</h5>
+<span>
+Nhân vật trung tâm của câu chuyện. Làm việc tại Bộ Sự thật và dần nhận ra
+những mâu thuẫn giữa thực tế với những gì Đảng tuyên bố.
+</span>
+</div>
+
+<div class="card">
+<h4>🌹</h4>
+<h5>Julia</h5>
+<span>
+Một phụ nữ trẻ có tinh thần phản kháng. Cô tìm kiếm tự do theo cách thực tế
+hơn Winston và trở thành người đồng hành của anh.
+</span>
+</div>
+
+<div class="card">
+<h4>🎩</h4>
+<h5>O'Brien</h5>
+<span>
+Thành viên cấp cao của Đảng. Là nhân vật có vai trò đặc biệt trong diễn biến
+của câu chuyện và những thử thách dành cho Winston.
+</span>
+</div>
+
+<div class="card">
+<h4>👁</h4>
+<h5>Big Brother</h5>
+<span>
+Biểu tượng của quyền lực tối cao. Cuốn sách không xác nhận rõ đây là một con
+người có thật hay chỉ là hình tượng tuyên truyền.
+</span>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h3>🏛 Bộ máy quyền lực của Oceania</h3>
+
+<p>
+
+Trong thế giới của <b>1984</b>, Đảng duy trì quyền lực thông qua bốn cơ quan
+trung tâm. Điều đáng chú ý là tên gọi của các bộ thường trái ngược với chức
+năng thực sự của chúng.
+
+</p>
+
+<div class="info">
+
+<div class="card">
+
+<h4>📰</h4>
+
+<h5>Bộ Sự thật</h5>
+
+<span>
+
+Phụ trách báo chí, sách, phim và tài liệu lịch sử.
+Nhiệm vụ chính là sửa đổi quá khứ để phù hợp với đường lối hiện tại của Đảng.
+
+</span>
+
+</div>
+
+<div class="card">
+
+<h4>⚔</h4>
+
+<h5>Bộ Hòa bình</h5>
+
+<span>
+
+Điều hành chiến tranh và duy trì tình trạng xung đột kéo dài giữa các siêu
+cường.
+
+</span>
+
+</div>
+
+<div class="card">
+
+<h4>❤️</h4>
+
+<h5>Bộ Tình yêu</h5>
+
+<span>
+
+Cơ quan thực thi pháp luật và trấn áp. Đây là nơi diễn ra các cuộc thẩm vấn và
+tra tấn nhằm buộc con người phải tuyệt đối phục tùng Đảng.
+
+</span>
+
+</div>
+
+<div class="card">
+
+<h4>💰</h4>
+
+<h5>Bộ Thịnh vượng</h5>
+
+<span>
+
+Quản lý nền kinh tế và phân phối hàng hóa. Dù đời sống luôn thiếu thốn nhưng
+Đảng vẫn tuyên bố đất nước đang ngày càng sung túc.
+
+</span>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h3>🧠 Những khái niệm nổi tiếng</h3>
+
+<div class="info">
+
+<div class="card">
+
+<h4>👁</h4>
+
+<h5>Big Brother</h5>
+
+<span>
+
+Biểu tượng của sự giám sát tuyệt đối. Hình ảnh và khẩu hiệu của Big Brother có
+mặt ở khắp nơi.
+
+</span>
+
+</div>
+
+<div class="card">
+
+<h4>📰</h4>
+
+<h5>Newspeak</h5>
+
+<span>
+
+Một hệ thống ngôn ngữ được thiết kế nhằm giảm dần số lượng từ vựng, qua đó hạn
+chế khả năng diễn đạt và suy nghĩ độc lập.
+
+</span>
+
+</div>
+
+<div class="card">
+
+<h4>🧠</h4>
+
+<h5>Thought Police</h5>
+
+<span>
+
+Cảnh sát Tư tưởng theo dõi và xử lý cả những suy nghĩ bị xem là chống lại Đảng,
+không chỉ các hành động.
+
+</span>
+
+</div>
+
+<div class="card">
+
+<h4>⚖</h4>
+
+<h5>Doublethink</h5>
+
+<span>
+
+Khả năng chấp nhận đồng thời hai điều mâu thuẫn và tin rằng cả hai đều đúng.
+Đây là một công cụ quan trọng để duy trì quyền lực.
+
+</span>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h3>💬 Những khẩu hiệu của Đảng</h3>
+
+<div style="text-align:center;padding:30px;">
+
+<h2 style="color:#ff6666;margin-bottom:25px;">
+WAR IS PEACE
+</h2>
+
+<h2 style="color:#ff6666;margin-bottom:25px;">
+FREEDOM IS SLAVERY
+</h2>
+
+<h2 style="color:#ff6666;">
+IGNORANCE IS STRENGTH
+</h2>
+
+</div>
+
+<p>
+
+Ba khẩu hiệu trên thể hiện tư tưởng <b>Doublethink</b>: chấp nhận những mệnh đề
+mâu thuẫn như thể chúng hoàn toàn đúng. Đây là một trong những hình ảnh biểu
+tượng nhất của cuốn tiểu thuyết.
+
+</p>
+
+</section>
+  <section>
+
+<h3>📚 Chủ đề và thông điệp</h3>
+
+<div class="info">
+
+<div class="card">
+<h4>🔒</h4>
+<span><b>Quyền lực</b><br><br>
+Tác phẩm đặt câu hỏi về điều gì sẽ xảy ra khi quyền lực không còn bị kiểm soát
+và không phải chịu bất kỳ sự giám sát nào.</span>
+</div>
+
+<div class="card">
+<h4>📰</h4>
+<span><b>Sự thật</b><br><br>
+Nếu mọi tài liệu đều có thể bị sửa đổi, con người sẽ dựa vào đâu để phân biệt
+điều gì là thật?</span>
+</div>
+
+<div class="card">
+<h4>🧠</h4>
+<span><b>Tự do tư tưởng</b><br><br>
+Cuốn sách nhấn mạnh rằng khả năng suy nghĩ độc lập là nền tảng của tự do cá
+nhân.</span>
+</div>
+
+<div class="card">
+<h4>📖</h4>
+<span><b>Ngôn ngữ</b><br><br>
+Ngôn ngữ không chỉ dùng để giao tiếp mà còn định hình cách con người tư duy về
+thế giới.</span>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h3>⏳ Dòng thời gian của câu chuyện</h3>
+
+<div style="border-left:4px solid crimson;padding-left:25px;">
+
+<p><b>① Cuộc sống thường nhật</b><br>
+Winston Smith làm việc tại Bộ Sự thật, nơi các tài liệu lịch sử thường xuyên
+được chỉnh sửa để phù hợp với đường lối của Đảng.</p>
+
+<p><b>② Những nghi ngờ đầu tiên</b><br>
+Anh bắt đầu đặt câu hỏi về những gì mình được dạy và ghi lại suy nghĩ trong
+một cuốn nhật ký.</p>
+
+<p><b>③ Khát vọng tự do</b><br>
+Winston tìm kiếm sự thật và mong muốn có một cuộc sống không bị kiểm soát hoàn
+toàn.</p>
+
+<p><b>④ Bước ngoặt</b><br>
+Một chuỗi sự kiện khiến Winston phải đối mặt trực tiếp với bộ máy quyền lực của
+Đảng.</p>
+
+<p><b>⑤ Kết thúc</b><br>
+Tác phẩm khép lại bằng một cái kết nổi tiếng, để lại nhiều suy ngẫm về sức mạnh
+của quyền lực và bản chất của tự do.</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h3>🌍 Ảnh hưởng của "1984"</h3>
+
+<p>
+
+Sau khi xuất bản năm <b>1949</b>, <b>1984</b> nhanh chóng trở thành một trong
+những tiểu thuyết có ảnh hưởng nhất thế kỷ XX.
+
+</p>
+
+<p>
+
+Các thuật ngữ như <b>Big Brother</b>, <b>Newspeak</b> và
+<b>Thought Police</b> đã vượt ra khỏi phạm vi văn học để trở thành những khái
+niệm quen thuộc trong các cuộc thảo luận về quyền lực, truyền thông, công nghệ
+và quyền riêng tư.
+
+</p>
+
+<p>
+
+Đến nay, cuốn sách vẫn thường xuyên được đưa vào danh sách những tác phẩm kinh
+điển nên đọc ít nhất một lần trong đời.
+
+</p>
+
+</section>
+
+<section>
+
+<h3>💬 Những câu nói nổi tiếng</h3>
+
+<div style="display:grid;gap:20px;">
+
+<div class="card">
+
+<p style="font-size:22px;font-style:italic;">
+"Big Brother is Watching You."
+</p>
+
+</div>
+
+<div class="card">
+
+<p style="font-size:22px;font-style:italic;">
+"War is Peace.<br>
+Freedom is Slavery.<br>
+Ignorance is Strength."
+</p>
+
+</div>
+
+<div class="card">
+
+<p style="font-size:20px;font-style:italic;">
+"Who controls the past controls the future.
+Who controls the present controls the past."
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h3>⭐ Đánh giá</h3>
+
+<p>
+
+<b>1984</b> không phải là một cuốn sách dễ đọc, nhưng là một tác phẩm có giá trị
+lâu dài. Sức hấp dẫn của nó không nằm ở những pha hành động mà ở các ý tưởng về
+quyền lực, sự thật, ngôn ngữ và tự do.
+
+</p>
+
+<p>
+
+Đây là một tác phẩm thường được đọc cùng với
+<b>Animal Farm</b> để hiểu rõ hơn tư tưởng và phong cách viết của George Orwell.
+
+</p>
+
+<div class="info">
+
+<div class="card">
+<h4>📅 1949</h4>
+<span>Xuất bản</span>
+</div>
+
+<div class="card">
+<h4>🌎 70+</h4>
+<span>Ngôn ngữ dịch</span>
+</div>
+
+<div class="card">
+<h4>🏆</h4>
+<span>Kinh điển thế giới</span>
+</div>
+
+<div class="card">
+<h4>★★★★★</h4>
+<span>Đánh giá độc giả</span>
+</div>
+
+</div>
+
+</section>
+  <section>
+
+<h3>📌 Thông tin nhanh</h3>
+
+<table style="
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+">
+
+<tr style="background:#222;">
+<th style="padding:15px;border:1px solid #333;">Mục</th>
+<th style="padding:15px;border:1px solid #333;">Thông tin</th>
+</tr>
+
+<tr>
+<td style="padding:15px;border:1px solid #333;">Tác giả</td>
+<td style="padding:15px;border:1px solid #333;">George Orwell</td>
+</tr>
+
+<tr>
+<td style="padding:15px;border:1px solid #333;">Tên thật</td>
+<td style="padding:15px;border:1px solid #333;">Eric Arthur Blair</td>
+</tr>
+
+<tr>
+<td style="padding:15px;border:1px solid #333;">Xuất bản</td>
+<td style="padding:15px;border:1px solid #333;">1949</td>
+</tr>
+
+<tr>
+<td style="padding:15px;border:1px solid #333;">Thể loại</td>
+<td style="padding:15px;border:1px solid #333;">Phản địa đàng (Dystopian Fiction)</td>
+</tr>
+
+<tr>
+<td style="padding:15px;border:1px solid #333;">Bối cảnh</td>
+<td style="padding:15px;border:1px solid #333;">Siêu quốc gia Oceania</td>
+</tr>
+
+<tr>
+<td style="padding:15px;border:1px solid #333;">Nhân vật chính</td>
+<td style="padding:15px;border:1px solid #333;">Winston Smith</td>
+</tr>
+
+</table>
+
+</section>
+
+<section>
+
+<h3>📚 Đọc thêm</h3>
+
+<div class="info">
+
+<div class="card">
+<h4>📕</h4>
+<span><b>Animal Farm</b><br><br>Một tác phẩm nổi tiếng khác của George Orwell, sử dụng hình tượng các loài vật để phản ánh quyền lực và chính trị.</span>
+</div>
+
+<div class="card">
+<h4>🎬</h4>
+<span><b>1984 (1984)</b><br><br>Bộ phim chuyển thể từ tiểu thuyết, tái hiện bầu không khí u ám và ngột ngạt của thế giới Oceania.</span>
+</div>
+
+<div class="card">
+<h4>🌍</h4>
+<span><b>Di sản</b><br><br>Đến nay, "1984" vẫn là một trong những cuốn sách được nhắc đến nhiều nhất khi bàn về quyền lực, sự thật và quyền riêng tư.</span>
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<footer style="
+margin-top:60px;
+padding:50px 20px;
+text-align:center;
+background:#0b0b0b;
+border-top:1px solid #222;
+">
+
+<h2 style="
+font-size:42px;
+letter-spacing:6px;
+margin-bottom:15px;
+color:#ffffff;
+">
+
+1984
+
+</h2>
+
+<p style="
+color:#bbbbbb;
+max-width:700px;
+margin:auto;
+">
+
+"Một tác phẩm kinh điển không đưa ra câu trả lời,
+mà buộc người đọc phải suy nghĩ về quyền lực,
+tự do và sự thật."
+
+</p>
+
+<div style="
+margin-top:35px;
+font-size:14px;
+color:#777;
+">
+
+Designed with HTML & CSS • Inspired by George Orwell
+
+</div>
+
+</footer>
+
+</body>
+</html>
+  
+  
